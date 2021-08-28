@@ -2,7 +2,7 @@
 
 ### indice
 
-- [Descarga de datos de repositorios publicos](Download.md)
+- [Descarga de datos de repositorios publicos](download.md)
   - GEO atlas EBI 
   - SRA NCBI
     - sratoolkit
