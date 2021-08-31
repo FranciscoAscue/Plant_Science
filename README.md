@@ -2,7 +2,7 @@
 
 ### indice
 
-- [Descarga de datos de repositorios publicos](docs/BasesDeDatos.md)
+- [Descarga de datos de repositorios publicos](docs/BaseDeDatos.md)
 - Procesamiento de datos de Transcriptomica 
   - [Análisis de datos NGS](docs/AnalisisDeDatosNgs.md)
   - [Análisis diferencial de genes](docs/AnalisisDiferencialGenes.md)
