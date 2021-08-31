@@ -1,0 +1,110 @@
+Análisis de datos NGS
+=====================
+...
+
+<p align="center">
+    <img width="40%" src="https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/img/RNAseqWorkflow.png">
+</p>
+
+## CONTENIDO
+
+- [CONTROL CALIDAD](#control-calidad)
+- [FILTRADO DE READS](#filtrado-de-reads)
+- [ALINEAMIENTO](#alineamiento)
+
+## CONTROL CALIDAD
+
+```bash
+fastqc -t 2 cavtsc_forward_paired.fq.gz cavtsc_reverse_paired.fq.gz -o /mnt/disco2/fascue/cporcellus/results/fastqc/
+```
+[fastqc link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+
+<p align="center">
+    <img width="60%" src="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc.png">
+</p>
+
+## FILTRADO DE READS
+
+<p align="center">
+    <img width="70%" src="https://usermanual.wiki/Document/TrimmomaticManualV032.1972804677/asset-6.png">
+</p>
+
+```
+java -jar ../descargas/Trimmomatic-0.39/trimmomatic-0.39.jar PE
+     -phred33 
+     -threads 2 
+     file_1.fastq file_2.fastq 
+     file_forward_paired.fq.gz file_forward_unpaired.fq.gz 
+     file_reverse_paired.fq.gz file_revers_unpaired.fq.gz 
+     ILLUMINACLIP:TruSeq3-PE-2.fa:2:30:10 
+     LEADING:3 
+     TRAILING:3 
+     SLIDINGWINDOW:4:25 
+     MINLEN:25
+```
+
+```sh
+java -jar ../descargas/Trimmomatic-0.39/trimmomatic-0.39.jar PE -phred33 -threads 2 file_1.fastq file_2.fastq file_forward_paired.fq.gz file_forward_unpaired.fq.gz file_reverse_paired.fq.gz file_revers_unpaired.fq.gz ILLUMINACLIP:TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:25 MINLEN:25
+```
+
+```   
+java -jar ../descargas/Trimmomatic-0.39/trimmomatic-0.39.jar SE
+     -phred33 
+     -threads 2 
+     file.fastq 
+     file_trimm.fq 
+     ILLUMINACLIP:TruSeq3-PE-2.fa:2:30:10 
+     LEADING:3 
+     TRAILING:3 
+     SLIDINGWINDOW:4:25 
+     MINLEN:25
+
+```
+
+```
+ILLUMINACLIP:<fastaWithAdaptersEtc>:<seed mismatches>:<palindrome clip threshold>:<simple clip threshold>
+LEADING:<quality> 
+TRAILING:<quality> 
+SLIDINGWINDOW:<windowSize>:<requiredQuality> 
+MINLEN:<length>
+
+```
+
+## ALINEAMIENTO
+
+<p align="center" width="100%">
+    <img width="50%" src="https://i.ytimg.com/vi/6BJbEWyO_N0/maxresdefault.jpg">
+</p>
+
+```r 
+#cargar paquetes para R
+library(Rbowtie2)
+library(Rsamtools)
+```
+### Preparacion del index 
+Descargar secuencia de referencia [Genoma de A. thaliana](https://www.ncbi.nlm.nih.gov/genome/?term=Arabidopsis%20thaliana)
+
+```r
+bowtie2_build("AthalianaChr4.fasta", bt2Index = "index/" , overwrite = TRUE)
+```
+### Alineamiento de secuencias
+
+```r
+bowtie2_build("AthalianaChr4.fasta", bt2Index = "index/" , overwrite = TRUE)
+
+bowtie2(bt2Index = "index/", 
+        samOutput = "SRR390310.sam", 
+        seq1 = "SRR390310_1.fastq", 
+        seq2 = "SRR390310_2.fastq", 
+        "--threads=3")
+```
+
+### Convertir SAM a BAM
+
+```r
+asBam("SRR390310.sam")
+```
+
+### Visualizar alineamiento
+
+[igv link](https://software.broadinstitute.org/software/igv/download)
