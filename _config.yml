@@ -1,8 +1,2 @@
 theme: jekyll-theme-modernist
-
-@media #{$large} {
-        @include grid(12,9);
-        }
-        @media #{$x-large} {
-            @include grid(12,8);
-        }
+        width: 60%
