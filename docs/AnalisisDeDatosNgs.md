@@ -80,9 +80,35 @@ MINLEN:<length>
 #cargar paquetes para R
 library(Rbowtie2)
 library(Rsamtools)
+library(ape)
+library(viridisLite)
+library(viridis)
+```
+
+Descargar secuencia de referencia [Genoma de A. thaliana](https://www.ncbi.nlm.nih.gov/genome/?term=Arabidopsis%20thaliana) , para tener un panorama del organismo en el que estamos trabajando se debe analizar el genoma anotado, para ello podemos trabajar en R con archivos `gff`
+
+```r
+# read gff files with ape
+
+gff_file <- read.gff("sequence.gff3", na.strings = c(".", "?"), GFF3 = TRUE)
+
+# transform in matrix to filter annotations
+
+tab <- as.matrix(table(gff_file$type))
+rnames <- as.matrix(rownames(tab))
+```
+
+```r
+# make a plot of annotation feactures
+
+etiquetas <- paste0(rnames[c(4,7,10,16),],"=",round(100 * tab[c(4,7,10,16),]/sum(tab[c(4,7,10,16),]), 2), "%")                                                       
+par(mfrow=c(1,2), adj = TRUE)
+pie(tab[c(4,7,10,16),], labels = etiquetas, col = viridis(4))
+#pie(tab[c(4,7,10,16),], col = viridis(4), labels = paste0(tab[c(4,7,10,16),], "%"))
+barplot(tab[c(4,7,10,16),], col = viridis(4), width = 60)
+
 ```
 ### Preparacion del index 
-Descargar secuencia de referencia [Genoma de A. thaliana](https://www.ncbi.nlm.nih.gov/genome/?term=Arabidopsis%20thaliana)
 
 ```r
 bowtie2_build("AthalianaChr4.fasta", bt2Index = "index/" , overwrite = TRUE)
