@@ -2,23 +2,12 @@
 
 ### indice
 
-- [Descarga de datos de repositorios publicos](download.md)
-  - GEO atlas EBI 
-  - SRA NCBI
-    - sratoolkit
-    - entrez
+- [Descarga de datos de repositorios publicos](docs/BasesDeDatos.md)
 - Procesamiento de datos de Transcriptomica 
-  - Calidad de los datos
-  - Filtrar Datos de baja calidad
-  - Alineamiento de datos (----R----)
-  - Visualizar alineamientos
-  - Generar conteo total
-  - Filtrado de datos
-  - Analisis diferencial de genes
-  - Normalizacion
-  - Heatmap y estadisiticas
-  - Vias metabolicas involucradas
-
+  - [Análisis de datos NGS](docs/AnalisisDeDatosNgs.md)
+  - [Análisis diferencial de genes](docs/AnalisisDiferencialGenes.md)
+  - [Estadisticas del Análisis diferencial de genes](docs/EstadisticasAnalisisDiferencial.md)
+  - [Enrriquecimiento de Genes](dosc/EnriquecimiendoGO.md)
 
 
 
