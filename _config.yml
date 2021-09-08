@@ -3,6 +3,6 @@ remote_theme: pmarsceill/just-the-docs
 show_downloads: true
 
 #color_scheme: "dark"
-
+logo: "img/logo50.png"
 plugins:
   - jekyll-seo-tag
