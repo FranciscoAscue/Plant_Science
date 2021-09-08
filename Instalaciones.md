@@ -1,6 +1,8 @@
 Instalaciones del curso
 ===========
 
+[Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
+
 fastqc - link   
 trimmomatic -link   
 
