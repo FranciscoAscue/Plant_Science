@@ -2,8 +2,4 @@ title: JC Plant Science
 remote_theme: pmarsceill/just-the-docs
 show_downloads: true
 
-
-use_logo: true
-
-# logo image to use. logo images are constrained at 50px in height.
-logo: img/logo50.png
+color_scheme: "dark"
