@@ -2,7 +2,7 @@ title: JC Plant Science
 remote_theme: pmarsceill/just-the-docs
 show_downloads: true
 
-color_scheme: "dark"
+#color_scheme: "dark"
 
 plugins:
   - jekyll-seo-tag
