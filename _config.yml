@@ -1,8 +1,12 @@
 title: JC Plant Science
 remote_theme: pmarsceill/just-the-docs
 show_downloads: true
+# Back to top link
+back_to_top: true
+back_to_top_text: "Regresar al inicio"
+
+footer_content: "Repositorio mantenido por Francisco Ascue <a href=\"https://github.com/FranciscoAscue">GitHub</a>"
+
 
 #color_scheme: "dark"
 logo: "/img/logo50.png"
-plugins:
-  - jekyll-seo-tag
