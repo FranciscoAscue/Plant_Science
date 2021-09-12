@@ -4,6 +4,10 @@
     <img width="70%" src="img/lop.jpeg"> 
 </p>
 
+<p align="center" width="100%">
+    <img width="50%" src="https://ars.els-cdn.com/content/image/1-s2.0-S2211124719315335-fx1.jpg"> 
+</p>
+
 ### Detalles del evento
 
 |                          |                     |
