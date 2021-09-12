@@ -8,10 +8,10 @@
 
 |                          |                     |
 |--------------------------|---------------------|
-|Apertura de inscripciones | `11 de septiembre del 2021`|
-|Cierre de inscripciones | `15 de septiembre del 2021`|
-|Fecha de publicación de seleccionados | `16 de septiembre del 2021`|
-|Fecha del evento	| `18 y 19 de septiembre del 2021`|
+|Apertura de inscripciones | `14 de septiembre del 2021`|
+|Cierre de inscripciones | `18 de septiembre del 2021`|
+|Fecha de publicación de seleccionados | `18 de septiembre del 2021`|
+|Fecha del evento	| `19 y 26 de septiembre del 2021`|
 |Lugar del evento| `Virtual mediante la plataforma zoom`|
 
 
