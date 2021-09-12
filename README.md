@@ -8,6 +8,10 @@
     <img width="50%" src="https://ars.els-cdn.com/content/image/1-s2.0-S2211124719315335-fx1.jpg"> 
 </p>
 
+<p align="center" width="100%">
+    <img width="50%" src="img/2021-09-12_16-34.png"> 
+</p>
+
 ### Detalles del evento
 
 |                          |                     |
