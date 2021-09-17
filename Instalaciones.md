@@ -8,9 +8,10 @@ Antes de empezar con el curso instale los siguientes paquetes:
 
 #### SRA Toolkit:The SRA Toolkit and SDK from NCBI [_Link sratoolkit_](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-win64.zip){: .btn-purple }
 
-### Instalacion de R y Rstudio
+### Instalacion de R y Rstudio para Windows.
 
-[Descargar R ](https://cran.r-project.org/src/base/R-4){: .btn } 
+
+[Descargar R ](https://cran.r-project.org/src/base/R-4/R-4.1.1.tar.gz){: .btn } 
 
 [Descargar Rstudio ](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe){: .btn } 
 
