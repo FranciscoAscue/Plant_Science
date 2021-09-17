@@ -8,7 +8,7 @@ Antes de empezar con el curso instale los siguientes paquetes:
 
 #### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
 
-#### R packages: Instalaciones de paquetes para el análisis de RNASeq
+## Instalaciones de paquetes para el análisis de RNASeq
 
 Para instalar los paquetes de R usaremos el gestor de paquetes de Bioconductor.
 
