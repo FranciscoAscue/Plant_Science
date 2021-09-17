@@ -1,4 +1,4 @@
-## 1. Bases de datos
+## Bases de datos
 
 ...
 
