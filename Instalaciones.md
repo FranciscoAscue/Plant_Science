@@ -4,12 +4,15 @@ Antes de empezar con el curso instale los siguientes paquetes:
 
 #### FastQC: quality control for high throughput sequence data [_Descargar fastqc_](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip){: .btn-blue}
 
-#### Trimmomatic: A flexible read trimming tool for Illumina NGS data [_Link trimmomatic_](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn-green }  
+#### Trimmomatic: A flexible read trimming tool for Illumina NGS data [_Link trimmomatic_](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip){: .btn-green }  
 
-#### SRA Toolkit:The SRA Toolkit and SDK from NCBI [_Link sratoolkit_](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
+#### SRA Toolkit:The SRA Toolkit and SDK from NCBI [_Link sratoolkit_](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-win64.zip){: .btn-purple }
 
 ### Instalacion de R y Rstudio
 
+[Descargar R ](https://cran.r-project.org/src/base/R-4){: .btn } 
+
+[Descargar Rstudio ](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe){: .btn } 
 
 
 ## Instalaciones de paquetes para el análisis de RNASeq
