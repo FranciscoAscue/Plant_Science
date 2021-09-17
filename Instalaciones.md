@@ -11,9 +11,7 @@ Antes de empezar con el curso instale los siguientes paquetes:
 ### Instalacion de R y Rstudio para Windows.
 
 
-[Descargar R ](https://cran.r-project.org/src/base/R-4/R-4.1.1.tar.gz){: .btn } 
-
-[Descargar Rstudio ](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe){: .btn } 
+[Descargar R ](https://cran.r-project.org/src/base/R-4/R-4.1.1.tar.gz){: .btn } [Descargar Rstudio ](https://download1.rstudio.org/desktop/windows/RStudio-1.4.1717.exe){: .btn } 
 
 
 ## Instalaciones de paquetes para el análisis de RNASeq
