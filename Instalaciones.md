@@ -1,28 +1,43 @@
 Instalaciones del curso
 ===========
+Antes de empezar con el curso instale los siguientes paquetes:
 
-[Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
+1. #### FastQC: quality control for high throughput sequence data
+>Descarguelo aquí: [Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
 
-fastqc - link   
-trimmomatic -link   
+2. #### Trimmomatic: A flexible read trimming tool for Illumina NGS data
+>Descarguelo aquí: [Link trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn }  
 
-Correr como administrador (Windonws)  
-mirrow algun server de USA: texas  
+3. #### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives
+>Descargue la version para su SO: [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
 
-Correr como superusuario (sudo)  
+4. #### R packages: Instalaciones de paquetes para el análisis de RNASeq
+>Para instalar los paquetes de R usaremos el gestor de paquetes de Bioconductor.
+
 ```r
-library(BiocManager)  
-library(Rsubread)  
-library(Rbowtie2)  
-library(Rsamtools)  
-library(dplyr)  
-library(org.At.tair.db)  
-library(pheatmap)  
-library(GO.db)  
-library(pathview)  
-library(KEGGgraph)  
-library(DESeq2)  
-library(ggplot2)  
+## Instalar gestor de paquetes de Bioconductor
+
+install.packages("BiocManager")
+
+## Activar BiocManager
+
+library(BiocManager)
+
+```
+
+```r
+## Instalar los siguientes paquetes:
+
+BiocManager::install("Rbowtie2")
+BiocManager::install("Rsubread")
+BiocManager::install("Rsamtools")
+BiocManager::install("dplyr")
+BiocManager::install("org.At.tair.db")
+BiocManager::install("pheatmap")
+BiocManager::install("GO.db")
+BiocManager::install("DESeq2")
+BiocManager::install("ggplot2")
+BiocManager::install("pathview")
+BiocManager::install("KEGGgraph")
+
 ```  
-
-
