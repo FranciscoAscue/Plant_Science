@@ -29,27 +29,27 @@
 [Link sratoolkit ubuntu](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-ubuntu64.tar.gz){: .btn }
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell1.PNG"> 
+    <img width="70%" src="/img/powershell1.png"> 
 </p>
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell2.PNG"> 
+    <img width="70%" src="/img/powershell2.png"> 
 </p>
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell3.PNG"> 
+    <img width="70%" src="/img/powershell3.png"> 
 </p>
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell4.PNG"> 
+    <img width="70%" src="/img/powershell4.png"> 
 </p>
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell5.PNG"> 
+    <img width="70%" src="/img/powershell5.png"> 
 </p>
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell6.PNG"> 
+    <img width="70%" src="/img/powershell6.png"> 
 </p>
 
 ## Otras Bases De Datos
