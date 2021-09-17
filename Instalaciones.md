@@ -6,7 +6,7 @@ Antes de empezar con el curso instale los siguientes paquetes:
 
 #### Trimmomatic: A flexible read trimming tool for Illumina NGS data [Link trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn }  
 
-#### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
+#### SRA Toolkit:The SRA Toolkit and SDK from NCBI [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
 
 ## Instalaciones de paquetes para el análisis de RNASeq
 
