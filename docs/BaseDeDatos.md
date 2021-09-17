@@ -28,7 +28,7 @@
 [Link sratoolkit windows](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-win64.zip){: .btn }
 [Link sratoolkit ubuntu](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-ubuntu64.tar.gz){: .btn }
 
-[]("/img/powershell1.png")
+![](../img/powershell1.png)
 
 
 <p align="center" width="100%">
