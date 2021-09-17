@@ -1,6 +1,6 @@
 ## Instalaciones del curso
 
-Antes de empezar con el curso instale los siguientes paquetes:
+Antes de empezar con el curso instale los siguientes programas y paquetes.
 
 #### FastQC: quality control for high throughput sequence data [_Descargar fastqc_](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip){: .btn-blue}
 
