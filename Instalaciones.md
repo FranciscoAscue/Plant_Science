@@ -2,7 +2,7 @@ Instalaciones del curso
 ===========
 Antes de empezar con el curso instale los siguientes paquetes:
 
-#### FastQC: quality control for high throughput sequence data [_Link fastqc_](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc){: .btn-blue}
+#### FastQC: quality control for high throughput sequence data [_Descargar fastqc_](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip){: .btn-blue}
 
 #### Trimmomatic: A flexible read trimming tool for Illumina NGS data [_Link trimmomatic_](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn-green }  
 
