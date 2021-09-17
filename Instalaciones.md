@@ -2,29 +2,27 @@ Instalaciones del curso
 ===========
 Antes de empezar con el curso instale los siguientes paquetes:
 
-1. #### FastQC: quality control for high throughput sequence data
+#### FastQC: quality control for high throughput sequence data
 
 Descarguelo aquí: [Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
 
-2. #### Trimmomatic: A flexible read trimming tool for Illumina NGS data
+#### Trimmomatic: A flexible read trimming tool for Illumina NGS data
 
 Descarguelo aquí: [Link trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn }  
 
-3. #### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives
+#### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives
 
 Descargue la version para su SO: [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
 
-4. #### R packages: Instalaciones de paquetes para el análisis de RNASeq
+#### R packages: Instalaciones de paquetes para el análisis de RNASeq
 
 Para instalar los paquetes de R usaremos el gestor de paquetes de Bioconductor.
 
 ```r
 ## Instalar gestor de paquetes de Bioconductor
-
 install.packages("BiocManager")
 
 ## Activar BiocManager
-
 library(BiocManager)
 ```
 
