@@ -1,9 +1,8 @@
-Bases de datos
-==================
+## Bases de datos
 
 ...
 
-## CONTENIDO
+## Contenido
 
 - [Gene Expression Omnibus](#gene-expression-omnibus)
 - [Expression Atlas](#expression-atlas)
@@ -11,26 +10,49 @@ Bases de datos
 - [SRA Toolkit](#sra-toolkit)
 - [Otras Bases de Datos](#otras-bases-de-datos)
 
-Pipelines y Scripts para Bioinformática
-=======================================
 
-## GENE EXPRESSION OMNIBUS
+## Gene Expression Omnibus
 
 [GEO link](https://www.ncbi.nlm.nih.gov/geo/)
 
-## EXPRESSION ATLAS
+## Expression Atlas
 
 [GXA link](https://www.ebi.ac.uk/gxa/home)
 
-## SRA NCBI
+## Sra Ncbi
 
 [SRA link](https://trace.ncbi.nlm.nih.gov/Traces/sra/)
 
-## SRA Toolkit
+## Sra Toolkit
 
-[download link](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software)
+[Link sratoolkit windows](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-win64.zip){: .btn }
+[Link sratoolkit ubuntu](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-ubuntu64.tar.gz){: .btn }
 
-## OTRAS BASES DE DATOS
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell1.PNG"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell2.PNG"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell3.PNG"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell4.PNG"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell5.PNG"> 
+</p>
+
+<p align="center" width="100%">
+    <img width="70%" src="img/powershell6.PNG"> 
+</p>
+
+## Otras Bases De Datos
 
 [Array Express link](https://www.ebi.ac.uk/arrayexpress/)
 
