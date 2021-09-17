@@ -1,4 +1,4 @@
-### Instalaciones del curso
+## Instalaciones del curso
 
 Antes de empezar con el curso instale los siguientes paquetes:
 
