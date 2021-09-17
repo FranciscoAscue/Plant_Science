@@ -32,7 +32,7 @@
 
 
 <p align="center" width="100%">
-    <img width="70%" src="/img/powershell2.png"> 
+    <img width="70%" src="../img/powershell2.png"> 
 </p>
 
 <p align="center" width="100%">
