@@ -2,17 +2,11 @@ Instalaciones del curso
 ===========
 Antes de empezar con el curso instale los siguientes paquetes:
 
-#### FastQC: quality control for high throughput sequence data
+#### FastQC: quality control for high throughput sequence data [Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
 
-Descarguelo aquí: [Link fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/){: .btn }
+#### Trimmomatic: A flexible read trimming tool for Illumina NGS data [Link trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn }  
 
-#### Trimmomatic: A flexible read trimming tool for Illumina NGS data
-
-Descarguelo aquí: [Link trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic){: .btn }  
-
-#### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives
-
-Descargue la version para su SO: [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
+#### SRA Toolkit:The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives [Link sratoolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){: .btn-purple }
 
 #### R packages: Instalaciones de paquetes para el análisis de RNASeq
 
