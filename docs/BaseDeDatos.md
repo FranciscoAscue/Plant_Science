@@ -30,26 +30,15 @@
 
 ![](../img/powershell1.png)
 
+![](../img/powershell2.png)
 
-<p align="center" width="100%">
-    <img width="70%" src="../img/powershell2.png"> 
-</p>
+![](../img/powershell3.png)
 
-<p align="center" width="100%">
-    <img width="70%" src="/img/powershell3.png"> 
-</p>
+![](../img/powershell4.png)
 
-<p align="center" width="100%">
-    <img width="70%" src="/img/powershell4.png"> 
-</p>
+![](../img/powershell5.png)
 
-<p align="center" width="100%">
-    <img width="70%" src="/img/powershell5.png"> 
-</p>
-
-<p align="center" width="100%">
-    <img width="70%" src="/img/powershell6.png"> 
-</p>
+![](../img/powershell6.png)
 
 ## Otras Bases De Datos
 
