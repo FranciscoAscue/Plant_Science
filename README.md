@@ -1,6 +1,4 @@
 ## PlantScience
-
-</p>
 <p align="center" width="100%">
     <img width="70%" src="img/banner_PlantScience.jpg"> 
 </p>
