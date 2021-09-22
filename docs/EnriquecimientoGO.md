@@ -105,7 +105,7 @@ pathview(gene.data = gene_matrix,
          pathway.id = "04130", 
          species = "ath")
 
-```r
+```
 
 
 [tair link](https://www.arabidopsis.org/tools/go_term_enrichment.jsp)
