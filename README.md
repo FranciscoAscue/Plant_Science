@@ -1,7 +1,7 @@
 ## PlantScience
 
 <p align="center" width="100%">
-    <img width="70%" src="img/lop.jpeg"> 
+    <img width="30%" src="img/banner.jpeg"> 
 </p>
 
 <p align="center" width="100%">
