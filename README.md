@@ -17,7 +17,7 @@
 
 ### Introducción
 
-<p aling="center">La transcriptómica es una de las “ómicas” más estudiadas e importantes en la investigación científica,  que permite corroborar como se están expresando los genes en un determinado momento o estado de los seres vivos, es como una fotografía instantánea del momento de la expresión de genes bajo estudio. La forma más ampliamente usada para obtener datos transcriptómicos es usando tecnologías de secuenciamiento (RNA-Seq), que permite perfilar el transcriptoma, cuantificar la expresión génica y descubrir nuevas moléculas de ARN. Este taller utiliza la secuenciación de ARN de Arabidopsis thaliana.</p>
+<p style="text-align:justify">La transcriptómica es una de las “ómicas” más estudiadas e importantes en la investigación científica,  que permite corroborar como se están expresando los genes en un determinado momento o estado de los seres vivos, es como una fotografía instantánea del momento de la expresión de genes bajo estudio. La forma más ampliamente usada para obtener datos transcriptómicos es usando tecnologías de secuenciamiento (RNA-Seq), que permite perfilar el transcriptoma, cuantificar la expresión génica y descubrir nuevas moléculas de ARN. Este taller utiliza la secuenciación de ARN de Arabidopsis thaliana.</p>
 
 ### Finalidad
 
