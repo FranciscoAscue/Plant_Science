@@ -38,11 +38,11 @@ library(ggsci)
 
 
 ``` r
-bamfilesSE <- list.files(path = "Star_bam/SE", 
+bamfilesSE <- list.files(path = "bamfile_SE", 
                        pattern = "*.bam$", 
                        full.names = TRUE )
 
-bamfilesPE <- list.files(path = "Star_bam/PE", 
+bamfilesPE <- list.files(path = "bamfile_PE", 
                        pattern = "*.bam$", 
                        full.names = TRUE )
                        
@@ -98,8 +98,8 @@ conteo <- featureCounts( files = bamfilesSE,
                      \\============================================================================//
    
 ```r
-data$counts
-write.table(data$counts , file = "rawSE_counts.txt", sep = "\t")
+conteo$counts
+write.table(conteo$counts , file = "rawSE_counts.txt", sep = "\t")
 ```
 
    
@@ -122,11 +122,6 @@ metadata$sampleid <- row.names(metadata)
 metadata <- metadata[match(colnames(data), metadata$sampleid),]
 metadata
 ```
-```r
-data$counts
-write.table(data$counts , file = "rawSE_counts.txt", sep = "\t")
-```
-
 ```r
 ddsMat <- DESeqDataSetFromMatrix(countData = data, 
                                  colData = metadata, 
