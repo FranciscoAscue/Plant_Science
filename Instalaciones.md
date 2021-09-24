@@ -1,4 +1,4 @@
-## Instalaciones del curso
+## 2.Instalaciones del curso
 
 Antes de empezar con el curso instale los siguientes programas y paquetes.
 
