@@ -4,7 +4,7 @@ Antes de empezar con el curso instale los siguientes programas y paquetes.
 
 #### FastQC: quality control for high throughput sequence data [_Descargar fastqc_](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip){: .btn-blue}
 
-#### Trimmomatic: A flexible read trimming tool for Illumina NGS data [_Link trimmomatic_](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-0.39.zip){: .btn-green }  
+#### Trimmomatic: A flexible read trimming tool for Illumina NGS data [_Link trimmomatic_](http://www.usadellab.org/cms/?page=trimmomatic){: .btn-green }  
 
 #### SRA Toolkit:The SRA Toolkit and SDK from NCBI [_Link sratoolkit_](https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.11.1/sratoolkit.2.11.1-win64.zip){: .btn-purple }
 
