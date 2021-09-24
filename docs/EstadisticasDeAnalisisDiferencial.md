@@ -1,4 +1,4 @@
-Estadísticas del Análisis Diferencial de Genes
+6.Estadísticas del Análisis Diferencial de Genes
 ================
 
 ## Introducción
