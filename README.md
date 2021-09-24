@@ -1,4 +1,4 @@
-## 1.PlantScience
+## 1.Plant-Science
 
 <p align="center" width="100%">
     <img width="70%" src="img/banner_PlantScience.jpg"> 
@@ -13,6 +13,7 @@
     <img width="30%" src="https://ars.els-cdn.com/content/image/1-s2.0-S2211124719315335-fx1.jpg"> 
 </p>
 
+### JC Plant-science
 
 
 ### Introducción
