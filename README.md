@@ -14,7 +14,7 @@
 </p>
 
 ### JC Plant-science
-
+<p style="text-align:justify">Este club, que forma parte del Journal Club UNMSM, tiene como objetivo el promover la discusión activa y horizontal entre alumnos e investigadores sobre temas dentro del marco de la ciencia de las plantas, y de mantener actualizado al cuerpo estudiantil sobre las muchas investigaciones que se realizan en esta área científica y sobre sus aplicaciones en la agricultura, medio ambiente y alimentación.</p>
 
 ### Introducción
 
