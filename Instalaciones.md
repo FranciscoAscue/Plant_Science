@@ -39,5 +39,11 @@ BiocManager::install("DESeq2")
 BiocManager::install("ggplot2")
 BiocManager::install("pathview")
 BiocManager::install("KEGGgraph")
-
+BiocManager::install("ape")
+BiocManager::install("ggplot2")
+BiocManager::install("pheatmap")
+BiocManager::install("pathview")
+BiocManager::install("clusterProfiler")
+BiocManager::install("biomaRt")
+BiocManager::install("genefilter")
 ```  
